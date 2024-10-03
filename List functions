@@ -1,0 +1,21 @@
+# Create a list
+my_list = [1, 2, 3, 4]
+print("Original List:", my_list)
+
+# Append elements to the list
+my_list.append(5)
+my_list.append(6)
+print("List after appending:", my_list)
+
+# Remove elements from the list
+my_list.remove(2)  # Removes the first occurrence of the element with value 2
+print("List after removing 2:", my_list)
+
+# Pop the last element
+last_element = my_list.pop()
+print("List after popping the last element:", my_list)
+print("Popped element:", last_element)
+
+# Clear the entire list
+my_list.clear()
+print("List after clearing:", my_list)
